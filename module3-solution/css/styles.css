@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+  font-size: 15px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: Helvetica;
+}
+
+/*** HEADER ***/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+	font-size: 2.5em;
+	font-weight: 700;
+	width: 250px;
+	float: left;
+	letter-spacing: 1.25px;
+	margin: 27px 15px 10px 0;
+	color: darkgreen;
+}
+
+button.navbar-toggle {
+	margin-top: 35px;
+}
+a:hover {
+	text-decoration: none;
+} 
+
+
+
+
+/*** MENU ***/
+ul#nav-list {
+	color: white;
+	background-color: #f6b319;
+}
+ul#nav-list a {
+	color: white;
+    margin-top: -7px;
+    margin-bottom: -7px;
+	font-size: 1.5em;
+}
+#nav-list a:hover {
+	text-decoration: none;
+	color: #E6D72A;
+}
+
+
+
+
+/*** BODY ***/
+h2 {
+	margin-bottom: 30px;
+}
+#menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8 {
+	background-color: #f6b319;
+	padding: 20:
+	margin-bottom: 20px;
+}
+
+
+section {
+    position: relative;
+    background-color: green;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 10;
+}
+section h3 {
+    font-size: 1.9em;
+}
+section p {
+    padding: 0 10px 15px 10px;
+}
+section a {
+    font-size: 1.0em;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+}
+
+
+
+/* Media queries */
+/*
+@media (max-width: 767px) {
+    .navbar-brand {
+		margin-left: 5%;
+	}
+	#menu1, #menu2, #menu3, #menu4, #menu5, #menu6, #menu7, #menu8 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+*/
+
+
+
+
+
+
